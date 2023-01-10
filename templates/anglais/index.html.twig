@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        
+        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
+        {% block stylesheets %}
+        <link rel= "stylesheet" href="style.css">
+		<link rel= "stylesheet" href="https://bootswatch.com/5/sandstone/bootstrap.min.css">
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
+
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+    </head>
+    <body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Clément COLOMBAT</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+        </a>
+         </li>
+        <a class="nav-link" href="#Formation">Formations</a>
+          <a class="nav-link" href="#Compétences">Skills</a>
+          <a class="nav-link" href="#Experiences">Professional Experiences</a>
+          <a class="nav-link" href="#interets">hobby</a>
+          <a class="nav-link" href="#A PROPOS">ABOUT</a>
+
+          <a class="nav-link" href="./francais">French</a>
+         </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div>
+	<main>
+		<div id="imagePrincipale">
+            <h1>Student in BUT Networks and telecommunications</h1>
+            <div id ="premierTrait"></div>
+            <p id="qualite">Teamwork - Curious - Rigorous - Adaptable</p>
+            <p id="objectif">Objective : Integrate an IT department</p>
+        </div>
+    </main>
+    <section id="Formation">
+        <div> 
+            <h2>Formations</h2>
+            <p>2022-2025 <strong>BUT Networks and telecommunications IUT Roanne</strong></p> 
+            <p>2021-2022 <strong>BAC STI2D Information System and Digital - Annemasse</strong></p>
+            <p>2018-2019 <strong>College certificate with honors</strong></p>
+            <p>2018 <strong>PSC1 diploma (first aid)</strong></p>
+        </div>
+     </section>
+     <section id="Compétences">
+        <div> 
+            <h2>Skills</h2>
+            <p>-----------------------------------------------</p>
+        </div>
+     </section>
+     <section id="Experiences">
+        <div> 
+            <h2>Professional Experiences</h2>
+            <p>2018-2019 <strong>Stage Carpentry Workshop Palot</strong></p>
+        </div>
+     </section>
+     <section id="interets">
+        <div> 
+            <h2>hobby</h2>
+            <p>-----------------------------------------------</p>
+        </div>
+     </section>
+     <footer>
+            <h2 id="A PROPOS">ABOUT</h2>
+            <p>address : &emsp; 6 bis Avenue de Paris</p>
+            <p>email address : &emsp; cmcolombat@gmail.com</p>
+            <p>phone : &emsp; 07.68.86.60.23</p>
+
+     </footer>
+
+</html>
