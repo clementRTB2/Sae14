@@ -15,6 +15,14 @@ class FrancaisController extends AbstractController
             'controller_name' => 'FrancaisController',
         ]);
     }
+
+    #[Route('/loisirs', name: 'app_loisirs')]
+    public function loisirs(): Response
+    {
+        return $this->render('/loisirs.html.twig', [
+            'controller_name' => 'FrancaisController',
+        ]);
+    }
     
 }
 
