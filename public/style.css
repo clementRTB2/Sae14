@@ -53,9 +53,9 @@ h1 {
 footer {
     text-align: center;
     padding-top: 3%;
-    background-color:  rgb(212, 212, 212);
+    background-color:  rgb(255, 255, 255);
     padding-bottom: 90px;
-    color: white;
+    color: rgb(61, 171, 244);
     font-family: sans-serif;
 
 }
