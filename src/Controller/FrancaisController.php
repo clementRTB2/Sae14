@@ -16,15 +16,34 @@ class FrancaisController extends AbstractController
         ]);
     }
 
+
+    #[Route('/cv', name: 'app_cv')]
+    public function cv(): Response
+    {
+        return $this->render('francais/cv.html.twig', [
+            'controller_name' => 'CvController',
+        ]);
+    }
+
+
+    #[Route('/portfolio', name: 'app_portfolio')]
+    public function portfolio(): Response
+    {
+        return $this->render('francais/portfolio.html.twig', [
+            'controller_name' => 'PortfolioController',
+        ]);
+    }
+
     #[Route('/loisirs', name: 'app_loisirs')]
     public function loisirs(): Response
     {
-        return $this->render('/loisirs.html.twig', [
-            'controller_name' => 'FrancaisController',
+        return $this->render('francais/loisirs.html.twig', [
+            'controller_name' => 'LoisirsController',
         ]);
     }
-    
+
 }
+
 
 
 
