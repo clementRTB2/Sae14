@@ -3,17 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
-        
-        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
-        {% block stylesheets %}
+       
         <link rel= "stylesheet" href="style.css">
 		<link rel= "stylesheet" href="https://bootswatch.com/5/sandstone/bootstrap.min.css">
-            {{ encore_entry_link_tags('app') }}
-        {% endblock %}
-
-        {% block javascripts %}
-            {{ encore_entry_script_tags('app') }}
-        {% endblock %}
+          
         <body background="https://tipsmake.com/data/images/100-most-beautiful-background-picture-35-u14PgA9wM.jpg">
     </head>
     <body>
@@ -27,9 +20,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarColor03">
       <ul class="navbar-nav me-auto">
-        <li class="nav-item"
+        <li class="nav-item">
 
-    </a>
+    
         </li>
         <a class="nav-link" href="#Formation">CV</a>
           <a class="nav-link" href="./port">E-Portfolio</a>
