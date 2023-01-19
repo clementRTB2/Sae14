@@ -20,7 +20,7 @@ class FrancaisController extends AbstractController
     #[Route('/cv', name: 'app_cv')]
     public function cv(): Response
     {
-        return $this->render('francais/cv.html.twig', [
+        return $this->render('colombat/cv.html.twig', [
             'controller_name' => 'CvController',
         ]);
     }
