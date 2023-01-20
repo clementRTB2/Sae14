@@ -30,8 +30,51 @@ h1 {
 #Compétences {
 
     text-align: center;
-    padding-top: 1%;
+    padding-top: 15px;
     font-family: sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+progress {
+
+    width: 10rem;
+}
+
+progress:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s;
+  }
+
+img {
+
+    width: 17%;
+    border-radius: 14%;
+
+
+}
+
+img:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s;
+  }
+
+
+article{
+
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+strong {
+
+    padding-right: 60px;
+    padding-bottom: 6px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+
 }
 
 #Experiences {
