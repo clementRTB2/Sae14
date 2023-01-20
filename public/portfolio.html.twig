@@ -2,31 +2,25 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        
+        <title>E-Portfolio</title>
+ 
         <link rel= "stylesheet" href="style.css">
 		<link rel= "stylesheet" href="https://bootswatch.com/5/sandstone/bootstrap.min.css">
-       
-        <body background="https://i.pinimg.com/originals/80/bc/b5/80bcb5ae5df313e634410f22153f10d8.jpg">
-    </head>
-    <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        
-        
-        <link rel= "stylesheet" href="style.css">
-		<link rel= "stylesheet" href="https://bootswatch.com/5/sandstone/bootstrap.min.css">
-        
+    <style>
+      body{
+        background-image: url("https://media.istockphoto.com/id/1332097112/fr/photo/le-noir-et-largent-sont-gris-clair-avec-du-blanc-le-d%C3%A9grad%C3%A9-est-la-surface-avec-des-mod%C3%A8les.jpg?s=612x612&w=0&k=20&c=RAH-8_B_OPQ1RHGxK53n21RdghO7D2hqaFnpj1X-93M=");
+        background-size: 1550px 700px;
+        background-repeat: no-repeat;
+      }
+    </style>         
     </head>
     <body>
 	
 
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Clément COLOMBAT</a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+    <a class="navbar-brand" href="#">E-Portfolio</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -35,11 +29,6 @@
         <li class="nav-item">
      </a>
         </li>
-        
-          <a class="nav-link" href="#Formation">Formations</a>
-          <a class="nav-link" href="#Compétences">Compétences</a>
-          <a class="nav-link" href="#Experiences">Experiences Proffessionnelles</a>
-          <a class="nav-link" href="#interets">Centres d'interets</a>
         </li>
       </ul>
     </div>
@@ -47,39 +36,38 @@
 </nav>
 <div>
 	<main>
-		<div id="imagePrincipale">
-            <h1>Etudiant en BUT Réseaux et télécomunications</h1>
+		<div id="imagePrincipale" style="color:white;">
+            <h1>BUT Réseaux et télécomunications</h1>
             <div id ="premierTrait"></div>
-            <p id="qualite">Esprit d’équipe - Curieux - Rigoureux - Adaptable</p>
-            <p id="objectif">Objectif : Intégrer un service informatique</p>
         </div>
+  <br></br>
+  <br></br>
     </main>
-    <section id="Formation">
-        <div> 
-            <h2>Formations</h2>
-            <p>2022-2025 <strong>BUT Réseaux et télécomunications IUT Roanne</strong></p> 
-            <p>2021-2022 <strong>BAC STI2D Système d'information et Numérique - Annemasse</strong></p>
-            <p>2018-2019 <strong>Brevet des collèges mention assez bien</strong></p>
-            <p>2018 <strong>Diplôme PSC1 (premier secours)</strong></p>
-          
-        </div>
+    <section id="Compétences :">
+<div class="progress">
+  <p><strong>Administrer les Réseaux et l'Internet &emsp;</strong></p>
+  <div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<br></br>
+<br></br>
+<div class="progress">
+  <p><strong>Connecter les Entreprises et les Usagers &emsp;</strong></p>
+  <div class="progress-bar bg-info" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<br></br>
+<br></br>
+<div class="progress">
+  <p><strong>Créer des Outils et Applications informatiques pour les R&T &emsp; </strong></p>
+  <div class="progress-bar bg-warning" role="progressbar" style="width: 65%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<br></br>
+<br></br>
+<div class="progress">
+  <p><strong>Anglais de communication et vocabulaire technique &emsp; </strong></p>  
+  <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+
+
      </section>
-     <section id="Compétences">
-        <div> 
-            <h2>Compétences</h2>
-            <p>-----------------------------------------------</p>
-        </div>
-     </section>
-     <section id="Experiences">
-        <div> 
-            <h2>Experiences Proffessionnelles</h2>
-            <p>2018-2019 <strong>Stage Menuiserie Atelier Palot</strong></p>
-        </div>
-     </section>
-     <section id="interets">
-        <div> 
-            <h2>Centres d'interets</h2>
-            <p>-----------------------------------------------</p>
-        </div>
-     </section>
+     
 </html>

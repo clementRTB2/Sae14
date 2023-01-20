@@ -2,18 +2,22 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <title>CV</title>
  
         <link rel= "stylesheet" href="style.css">
 		<link rel= "stylesheet" href="https://bootswatch.com/5/sandstone/bootstrap.min.css">
-            
+    <style>
+      body{
+        background-image: url("https://media.istockphoto.com/id/1332097112/fr/photo/le-noir-et-largent-sont-gris-clair-avec-du-blanc-le-d%C3%A9grad%C3%A9-est-la-surface-avec-des-mod%C3%A8les.jpg?s=612x612&w=0&k=20&c=RAH-8_B_OPQ1RHGxK53n21RdghO7D2hqaFnpj1X-93M=");
+        background-size: 1650px 1100px;
+        background-repeat: no-repeat;
+      }
+    </style>    
     </head>
     <body>
-	
 
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <div class="container-fluid">
     <a class="navbar-brand" href="#">Clément COLOMBAT</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -27,7 +31,6 @@
           <a class="nav-link" href="#Formation">Formations</a>
           <a class="nav-link" href="#Compétences">Compétences</a>
           <a class="nav-link" href="#Experiences">Experiences Proffessionnelles</a>
-          <a class="nav-link" href="#interets">Centres d'interets</a>
         </li>
       </ul>
     </div>
@@ -35,39 +38,41 @@
 </nav>
 <div>
 	<main>
-		<div id="imagePrincipale">
+		<div id="imagePrincipale" style="color:white;">
             <h1>Etudiant en BUT Réseaux et télécomunications</h1>
             <div id ="premierTrait"></div>
-            <p id="qualite">Esprit d’équipe - Curieux - Rigoureux - Adaptable</p>
-            <p id="objectif">Objectif : Intégrer un service informatique</p>
         </div>
     </main>
-    <section id="Formation">
+    <section id="Formation" style="color:white;">
         <div> 
             <h2>Formations</h2>
-            <p>2022-2025 <strong>BUT Réseaux et télécomunications IUT Roanne</strong></p> 
+            <p>2022-2025 <strong>BUT Réseaux et télécomunications IUT Roanne (en cours)</strong></p> 
             <p>2021-2022 <strong>BAC STI2D Système d'information et Numérique - Annemasse</strong></p>
             <p>2018-2019 <strong>Brevet des collèges mention assez bien</strong></p>
             <p>2018 <strong>Diplôme PSC1 (premier secours)</strong></p>
-          
+          <br></br>
         </div>
      </section>
-     <section id="Compétences">
+     <section id="Compétences" style="color:white;">
         <div> 
             <h2>Compétences</h2>
-            <p>-----------------------------------------------</p>
+            <p><strong>Connaissances informatiques</strong></p>
+            <p><strong>Systèmes</strong> Linux, Windows (virtualisations)</p>
+              <p><strong>Réseaux</strong>	Gestion du parc informatique et du réseau , Cisco</p>
+                <p><strong>Langages</strong>	php, Python, SQL, HTML, CSS, C</p>
+                  <p><strong>Langues</strong> Langues	Anglais – niveau intermédiaire</p>
+                                          <p>Allemand – niveau scolaire </p>
+                                          <br></br>                                 
         </div>
      </section>
-     <section id="Experiences">
+     <section id="Experiences" style="color:white;">
         <div> 
             <h2>Experiences Proffessionnelles</h2>
             <p>2018-2019 <strong>Stage Menuiserie Atelier Palot</strong></p>
-        </div>
-     </section>
-     <section id="interets">
-        <div> 
-            <h2>Centres d'interets</h2>
-            <p>-----------------------------------------------</p>
+            <p>Bilan personnel : Observation de la <strong>relation client</strong> et du partage des tâches.</p>
+            <p>2020-2021 <strong>Stage d’observation dans le domaine de l’informatique</strong> bancaire</p>
+            <p>Bilan personnel : Observation des différents métiers d’une <strong>équipe informatique</strong></p>
+            <p>dédiée à la salle des marchés (Support, Gestion de projet, Développement)</p>
         </div>
      </section>
 </html>
