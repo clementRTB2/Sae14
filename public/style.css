@@ -36,16 +36,6 @@ h1 {
     margin-right: 15%;
 }
 
-progress {
-
-    width: 10rem;
-}
-
-progress:hover {
-    transform: scale(1.5);
-    transition: transform 0.3s;
-  }
-
 img {
 
     width: 17%;
@@ -67,7 +57,7 @@ article{
 }
 
 
-strong {
+.port {
 
     padding-right: 60px;
     padding-bottom: 6px;
@@ -93,11 +83,12 @@ strong {
 }
 
 footer{
-    margin-top: 40px;
+    padding-top: 40px;
     border-top: 5px solid #6f6f6f;
     background-color: #000;
     color:#fff;
     padding: 30px 100px;
+    padding-bottom: 35px;
 }
 footer h1{
     font-family: "Playfair Display", sans-serif ;
